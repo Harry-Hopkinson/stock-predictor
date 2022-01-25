@@ -1,0 +1,35 @@
+{
+  "name": "stock-predictor",
+  "version": "1.0.0",
+  "description": "A Stock Predictor for an Input Stock written in Typescript 🚀",
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "json-server db.json --port 3333",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harry-Hopkinson/stock-predictor.git"
+  },
+  "keywords": [],
+  "author": "Harry Hopkinson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Harry-Hopkinson/stock-predictor/issues"
+  },
+  "homepage": "https://github.com/Harry-Hopkinson/stock-predictor#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "react": "^17.0.2",
+    "react-router-dom": "^6.2.1",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@types/styled-components": "^5.1.21"
+  }
+}
